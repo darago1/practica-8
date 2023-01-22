@@ -1,0 +1,87 @@
+/* CSS página */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.global {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: #f2f2f2;
+  margin-top: auto;
+}
+
+.right {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.sesion {
+  color: #fff;
+  background-color: #1a73e8;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.line {
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  max-width: 584px;
+}
+
+input {
+  border: none;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  padding: 15px;
+}
+
+.pais {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  color: #70757a;
+}
+
+.container {
+  display: flex;
+  border-bottom: 1px solid #dadce0;
+  color: #70757a;
+}
+
+.container > a {
+  color: #70757a;
+}
+
+.container > div > a {
+  color: #70757a;
+}
